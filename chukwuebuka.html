@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="chart.css">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,13 +9,14 @@
 </head>
 <body>
   <header>
-    <h1> Hello </h1>
-    <h2> I'm Chukwuebuka Ernest-Opara </h2>
-    <img src="https://res.cloudinary.com/chukwuebuka/image/upload/v1566511144/TLWSEBK7C-UMC6J4QLC-099c81ebba60-512_sjrk4z.png" height="200px" width="200px" alt="Image">
+    <div style="line-height:11px">
+      <h1 style="color:rgb(247, 93, 93); font-size:20px"> Hello, </h1>
+      <h2 style="font-size:20px"> I'm Chukwuebuka Ernest-Opara </h2>
+    </div>
 
-    <div>
-
-        <p> 8A WEGBO  STREET </p>
+    <div style="font-size:12px; float: right; padding-left: 10px; padding-bottom: 20px; border: 5px solid transparent; border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%); border-image-slice: 1;">
+        <img src="https://res.cloudinary.com/chukwuebuka/image/upload/v1566511144/TLWSEBK7C-UMC6J4QLC-099c81ebba60-512_sjrk4z.png" height="200px" width="200px" alt="Image">
+        <p> 8A WEGBO STREET </p>
         <p> YABA,LAGOS 101213</p>
         <p> +234 (802) 802-4752</p>
         <p> ernest.ebuka@gmail.com </p>
@@ -22,15 +24,15 @@
     </div>
 
   </header>
-    <div>
-      <h1> Brief Summary </h1>
+    <div style="line-height:15px">
+      <h1 style="color:rgb(247, 93, 93);  font-size:20px"> Brief Summary </h1>
       <p> I’m a university undergraduate who is highly driven and equipped with mid-level proficiency in Python. I am working towards being a recognized machine learning expert.  </p>
 
     </div>
 
     <div>
-        <h1> Experience </h1>
-        <p> APRIL 2018 - AUGUST 2018 </p>
+        <h1 style="color:rgb(247, 93, 93);  font-size:20px"> Experience </h1>
+        <p style="font-size:12px"> APRIL 2018 - AUGUST 2018 </p>
         <p><strong>PiggyVest NG, Lagos</strong> - <em>Intern</em></p>
 
         <ul>
@@ -39,21 +41,34 @@
          </ul>
       </div>
 
-      <div>
-        <h1> Education </h1>
-        <p> SEPTEMBER 2017 - PRESENT </p>
+      <div style="line-height:15px">
+        <h1 style="color:rgb(247, 93, 93);  font-size:20px"> Education </h1>
+        <p style="font-size:12px"> SEPTEMBER 2017 - PRESENT </p>
         <p><strong>Babcock University, Ilishan</strong> - <em>Bachelor's Degree in Computer Science</em></p>
 
         <p>Computer Science Major with A grade in 3 out of 5 programming courses.</p>
       </div>
 
       <div>
-        <h1> Additional Skills </h1>
-        <ul>
-          <li> Django </li>
-          <li> Flask </li>
-          <li> OpenCV </li>
-        </ul>
+        <h1 style="color:rgb(247, 93, 93);  font-size:20px"> Additional Skills </h1>
+
+
+        <div class="charts">
+          <link rel="stylesheet" href="https://cdn.rawgit.com/theus/chart.css/v1.0.0/dist/chart.css" />
+          <span>HTML</span>
+          <div class="charts__chart chart--p80 chart--default" data-percent></div><!-- /.charts__chart -->
+          <span>Python</span>
+          <div class="charts__chart chart--p80 chart--blue" data-percent></div><!-- /.charts__chart -->
+          <span>OpenCV</span>
+          <div class="charts__chart chart--p40 chart--green" data-percent></div><!-- /.charts__chart -->
+          <span>Django</span>
+          <div class="charts__chart chart--p40 chart--red" data-percent></div><!-- /.charts__chart -->
+          <span>CSS</span>
+          <div class="charts__chart chart--p20 chart--yellow" data-percent></div><!-- /.charts__chart -->
+          <span>Flask</span>
+          <div class="charts__chart chart--p5 chart--grey" data-percent></div><!-- /.charts__chart -->
+        </div><!-- /.charts -->
+
       </div>
 </body>
 </html>
